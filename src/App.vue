@@ -1,16 +1,8 @@
 <template>
-  <html lang="fr">
-    <head>
-      <meta charset="utf-8" />
-      <link rel="icon" type="image/png" href="./components/assets/logo.png" />
-
-      <title>Aikyan Hosting</title>
-    </head>
-    <Main />
-    <Header />
-    <Ajax />
-    <Index />
-  </html>
+  <img src="./components/asstes/logo.png" />
+  <Header />
+  <Ajax />
+  <Index />
 </template>
 
 <script>
@@ -29,5 +21,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>
