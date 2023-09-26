@@ -2,7 +2,9 @@
   <body class="finisher-header">
     <header>
       <div class="logoContainer">
-        <img src="/components/assets/logo.png" />
+        <img
+          src="https://fantastic-haupia-740af4.netlify.app/assets/logo.png"
+        />
       </div>
 
       <nav>
@@ -32,7 +34,9 @@
               </p>
             </div>
             <div class="firstSection-sideImage">
-              <img src="assets/host.png" />
+              <img
+                src="https://fantastic-haupia-740af4.netlify.app/assets/host.png"
+              />
             </div>
           </section>
           <aside class="bgHeroBanner"></aside>
@@ -119,19 +123,28 @@
             <div class="operatingSystemCardBox">
               <div class="operatingSystemCard" title="Debian">
                 <div class="operatingSystem">
-                  <img src="assets/os/debian.webp" title="Debian" />
+                  <img
+                    src="https://fantastic-haupia-740af4.netlify.app/assets/os/debian.webp"
+                    title="Debian"
+                  />
                 </div>
               </div>
 
               <div class="operatingSystemCard" title="Fedora">
                 <div class="operatingSystem">
-                  <img src="assets/os/Fedora.png" title="Fedora" />
+                  <img
+                    src="https://fantastic-haupia-740af4.netlify.app/assets/os/Fedora.png"
+                    title="Fedora"
+                  />
                 </div>
               </div>
 
               <div class="operatingSystemCard" title="Ubuntu">
                 <div class="operatingSystem">
-                  <img src="assets/os/ubuntu.png" title="Ubuntu" />
+                  <img
+                    src="https://fantastic-haupia-740af4.netlify.app/assets/os/ubuntu.png"
+                    title="Ubuntu"
+                  />
                 </div>
               </div>
             </div>
@@ -186,7 +199,9 @@
           <div class="bgBlogAndRessouces bgAbove"></div>
           <div class="blogAndRessourcesContainer">
             <div class="blogAndRessources-photo">
-              <img src="assets/blogBG.png" />
+              <img
+                src="https://fantastic-haupia-740af4.netlify.app/assets/blogBG.avif"
+              />
             </div>
             <div class="blogAndRessources-text">
               <h2>Blog et Ressources</h2>
@@ -357,19 +372,27 @@
         <section class="sectionBrands">
           <article class="brandsBox">
             <div class="brandsCard">
-              <img src="assets/brands/AMD_Epyc_Logo.png" />
+              <img
+                src="https://fantastic-haupia-740af4.netlify.app/assets/brands/AMD_Epyc_Logo.png"
+              />
             </div>
 
             <div class="brandsCard">
-              <img src="assets/brands/Crucial_Logo.png" />
+              <img
+                src="https://fantastic-haupia-740af4.netlify.app/assets/brands/Crucial_Logo.png"
+              />
             </div>
 
             <div class="brandsCard">
-              <img src="assets/brands/Intel_Xeon_Logo.png" />
+              <img
+                src="https://fantastic-haupia-740af4.netlify.app/assets/brands/Intel_Xeon_Logo.png"
+              />
             </div>
 
             <div class="brandsCard">
-              <img src="assets/brands/SuperMicro_Logo.png" />
+              <img
+                src="https://fantastic-haupia-740af4.netlify.app/assets/brands/SuperMicro_Logo.png"
+              />
             </div>
           </article>
         </section>
@@ -463,12 +486,14 @@ document.addEventListener('DOMContentLoaded', function () {
   padding: 0;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   color: #04080f;
+  
 }
 
 body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
+  background-color: #201e30;
 }
 
 /* Style Button */
@@ -1034,12 +1059,30 @@ section {
 .ourValuesCard p {
   color: #bbd1ea;
 }
-
+.ourValuesCard::before {
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: -5px;
+  bottom: -5px;
+  right: -5px;
+  z-index: -1;
+  background: inherit;
+  background-size: inherit;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.5s;
+}
+.ourValuesCard:hover::before {
+  opacity: 1;
+  filter: blur(20px);
+  animation: glow 8s linear infinite;
+}
 /* Contact Us */
 .sectionContact {
   width: 100%;
   padding: 50px 0 50px 0;
-  /*background-image: url('assets/772.jpg');
+  /*background-image: url('https://fantastic-haupia-740af4.netlify.app/assets/772.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;*/

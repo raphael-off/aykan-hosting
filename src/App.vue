@@ -1,13 +1,9 @@
 <template>
   <html lang="fr">
     <head>
-      <meta charset="utf-8" />
-      <link rel="icon" type="image/png" href="./components/assets/logo.png" />
-
-      <title>Aikyan Hosting</title>
-    </head>
-    <Main />
     <Header />
+    <Main />
+
     <Ajax />
     <Index />
   </html>
