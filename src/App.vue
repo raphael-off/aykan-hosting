@@ -1,12 +1,9 @@
 <template>
-  <html lang="fr">
-    <head>
-    <Header />
-    <Main />
+  <Header />
+  <Main />
 
-    <Ajax />
-    <Index />
-  </html>
+  <Ajax />
+  <Index />
 </template>
 
 <script>

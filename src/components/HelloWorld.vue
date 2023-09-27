@@ -431,9 +431,15 @@
 
       <div class="footerSecondContainer">
         <div class="social">
-          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-discord"></i></a>
+          <a href="#"><img width="40" height="40" src="https://img.icons8.com/color/48/linkedin.png" alt="linkedin"/></i></a>
+          <a href="#"><img width="40" height="40" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="twitterx--v2"/></i></a>
+          <a href="#"
+            ><img
+              width="40"
+              height="40"
+              src="https://img.icons8.com/neon/30/discord-logo.png"
+              alt="discord-logo"
+          /></a>
         </div>
         <p>host.aikyan.fr © 2023</p>
       </div>
@@ -486,7 +492,6 @@ document.addEventListener('DOMContentLoaded', function () {
   padding: 0;
   font-family: 'Lato', Arial, Helvetica, sans-serif;
   color: #04080f;
-  
 }
 
 body {
@@ -1386,15 +1391,9 @@ footer {
   line-height: 40px;
   display: inline-block;
   text-align: center;
-  border-radius: 50%;
-  border: 1px solid #507dbc;
   margin-left: 10px;
   margin: 10px 0px;
   transition: all 0.25s ease-in-out;
-}
-
-.social > a i {
-  color: #507dbc;
 }
 
 .social > a:hover {
